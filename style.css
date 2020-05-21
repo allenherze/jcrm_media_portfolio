@@ -32,7 +32,7 @@
 }
 
 .video-container:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -56,11 +56,15 @@
   color: #fff;
 }
 
+.about-container {
+  padding: 4rem;
+}
+
 #about p {
   line-height: 1.7;
 }
 
-#about h1 {
+#about h2 {
   border-bottom: 1px solid #fff;
   padding-bottom: 1rem;
 }
@@ -72,8 +76,6 @@
 }
 
 #team {
-  /* background: url('./img/Clarence.png') no-repeat center center / cover;
-   */
   background: #f4f4f4;
   background-attachment: fixed;
   padding: 3rem;
@@ -91,7 +93,7 @@
 }
 
 .black-overlay {
-  content: '';
+  content: "";
   background: rgba(0, 0, 0, 0.3);
   position: absolute;
   width: 100%;
@@ -106,6 +108,17 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.wave-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.wave-container svg {
+  display: block;
+}
+
+/* Media Queries */
 
 @media (max-width: 400px) {
   .grid {
