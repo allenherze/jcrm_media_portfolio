@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -32,7 +34,7 @@
 }
 
 .video-container:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -93,7 +95,7 @@
 }
 
 .black-overlay {
-  content: "";
+  content: '';
   background: rgba(0, 0, 0, 0.3);
   position: absolute;
   width: 100%;
